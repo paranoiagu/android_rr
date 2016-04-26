@@ -21,6 +21,10 @@
   <remote  name="private"
            fetch="ssh://git@github.com" />
 
+  <remote  name="paranoiagu"
+	   fetch="https://github.com/paranoiagu"
+	   revision="marshmallow" />
+
   <remote  name="rr"
 	   fetch="https://github.com/ResurrectionRemix"
 	   revision="marshmallow" />
@@ -54,7 +58,7 @@
   <project path="build" name="android_build" groups="pdk" remote="rr" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
-  <project path="android" name="platform_manifest" remote="rr"/>
+  <project path="android" name="platform_manifest" remote="paranoiagu"/>
   <project path="abi/cpp" name="CyanogenMod/android_abi_cpp" groups="pdk" />
   <project path="art" name="CyanogenMod/android_art" groups="pdk" />
   <project path="bionic" name="CyanogenMod/android_bionic" groups="pdk" />
