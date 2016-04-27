@@ -54,13 +54,18 @@
   <project path="packages/apps/Messaging" remote="suda" revision="sm-2.0" name="SudaMod/android_packages_apps_Messaging" groups="pdk-fs" />
   <project path="packages/providers/PhoneLocationProvider" remote="suda" revision="sm-2.0" name="SudaMod/android_packages_provider_PhoneLocationProvider" /> 
   <project path="external/suda/SudaSDKs" remote="suda" revision="sm-2.0" name="SudaMod/android_external_suda_SudaSDKs" />
+  <project path="frameworks/base" name="android_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="rr" />
 <!-- END SUDAMOD -->
+
+<!-- BEGIN paranoiagu -->
+  <project path="android" name="platform_manifest" remote="paranoiagu"/>
+  <project path="frameworks/base" name="SudaMod/android_frameworks_base" remote="paranoiagu" revision="marshmallow" groups="pdk-cw-fs,pdk-fs" />
+<!-- END paranoiagu -->
 
 <!-- BEGIN CYANOGENMOD -->
   <project path="build" name="android_build" groups="pdk" remote="rr" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
-  <project path="android" name="platform_manifest" remote="paranoiagu"/>
   <project path="abi/cpp" name="CyanogenMod/android_abi_cpp" groups="pdk" />
   <project path="art" name="CyanogenMod/android_art" groups="pdk" />
   <project path="bionic" name="CyanogenMod/android_bionic" groups="pdk" />
@@ -168,7 +173,6 @@
   <project path="external/zip" name="CyanogenMod/android_external_zip" />
   <project path="external/zlib" name="CyanogenMod/android_external_zlib" groups="pdk" />
   <project path="frameworks/av" name="frameworks_av" groups="pdk" remote="rr" />
-  <project path="frameworks/base" name="android_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="rr" />
   <project path="frameworks/compile/libbcc" name="CyanogenMod/android_frameworks_compile_libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="CyanogenMod/android_frameworks_compile_mclinker" groups="pdk" />
   <project path="frameworks/compile/slang" name="CyanogenMod/android_frameworks_compile_slang" groups="pdk" />
