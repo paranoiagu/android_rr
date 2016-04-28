@@ -60,6 +60,7 @@
 <!-- BEGIN paranoiagu -->
   <project path="android" name="platform_manifest" remote="paranoiagu"/>
   <project path="frameworks/base" name="android_frameworks_base" remote="paranoiagu" revision="marshmallow" groups="pdk-cw-fs,pdk-fs" />
+  <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" remote="paranoiagu" revision="marshmallow" />
 <!-- END paranoiagu -->
 
 <!-- BEGIN CYANOGENMOD -->
@@ -322,7 +323,6 @@
   <project path="packages/screensavers/WebView" name="CyanogenMod/android_packages_screensavers_WebView" groups="pdk-fs" />
   <project path="packages/services/LiveLockScreenService" name="CyanogenMod/android_packages_services_LiveLockScreenService" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/services/Mms" name="CyanogenMod/android_packages_services_Mms" groups="pdk-cw-fs,pdk-fs" />
-  <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" remote="rr" />
   <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="rr" />
   <project path="packages/wallpapers/Basic" name="CyanogenMod/android_packages_wallpapers_Basic" groups="pdk-fs" />
   <project path="packages/wallpapers/Galaxy4" name="CyanogenMod/android_packages_wallpapers_Galaxy4" groups="pdk-fs" />
