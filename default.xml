@@ -58,7 +58,6 @@
 <!-- BEGIN paranoiagu from cm -->
   <project path="packages/apps/Dialer" remote="paranoiagu" name="android_packages_apps_Dialer" revision="cm-13.0" groups="pdk-fs" />
   <project path="packages/apps/Contacts" remote="paranoiagu" revision="cm-13.0" name="android_packages_apps_Contacts" groups="pdk-fs" /> 
-  <project path="frameworks/av" name="frameworks_av" groups="pdk" remote="paranoiagu" revision="cm-13.0" />
 <!-- END paranoiagu cm -->
 
 <!-- BEGIN SUDAMOD ok -->
@@ -73,6 +72,7 @@
   <project path="external/android-visualizer" name="android_external_android-visualizer" remote="rr"/>
   <project path="external/sepolicy" name="android_external_sepolicy" groups="pdk" remote="rr" />
   
+  <project path="frameworks/av" name="frameworks_av" groups="pdk" remote="rr" />
   <!-- DUI, cards RR Must Use -->
   <project path="packages/apps/DUI" name="packages_apps_DUI" remote="rr" />
   <project path="frameworks/opt/cards" name="ResurrectionRemix/frameworks_opt_cards" remote="github" revision="marshmallow" />
